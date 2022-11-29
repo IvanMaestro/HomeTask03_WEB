@@ -1,5 +1,5 @@
-const a = Number.parseFloat(prompt("Введите температуру в Цельсиях: "));
-alert(`Цельсий: ${a}, Фаренгейт: ${celsiusToFahrenheit(a).toFixed(1)}`);
+const celsium = Number.parseFloat(prompt("Введите температуру в Цельсиях: "));
+alert(`Цельсий: ${celsium}, Фаренгейт: ${celsiusToFahrenheit(celsium).toFixed(1)}`);
 function celsiusToFahrenheit(number) {
   return (9 / 5) * number + 32;
 }
